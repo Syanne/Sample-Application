@@ -18,7 +18,7 @@ userName: sampleUser@test.com
 password: sampleUser@test.com
 
 # Post-login event
-simply writes a log to Logs table
+When success or failure events are raised, sink simply writes a log to Logs table
 
 
 
