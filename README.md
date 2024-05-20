@@ -18,13 +18,9 @@ userName: sampleUser@test.com
 password: sampleUser@test.com
 
 # Post-login event
-When any post-login event is raised, sink simply writes a log to Logs table
-
+Implementedonly in Identity Server. When any post-login event is raised, sink simply writes a log to Logs table
 
 # Further improvements
 1. Sample.ConsoleApp should be moved to other solution
 2. Sample.Auth.Models should be used as a nuget, not project reference
 3. Generate and return a JWT token after successfull authentification
-
-
-
